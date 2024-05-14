@@ -1,0 +1,43 @@
+h1{
+  color:white;
+  font-size: 54px;
+}
+
+#cabecera{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+.boton-tarea{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(15, 37, 55);
+  margin-bottom: 12px;
+  border-radius: 6px;
+  padding: 10px;
+  margin-right: 30px;
+}
+.tacho-eliminar{
+  color: white;
+  font-size: 14px;
+}
+.espacio-tarea{
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 10px;
+}
+.boton-aniadir{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px;
+}
+.entrada{
+  margin-right: 30px;
+  margin-left: 30px;
+}
